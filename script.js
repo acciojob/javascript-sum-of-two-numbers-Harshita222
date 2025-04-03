@@ -5,7 +5,7 @@ let input1 = prompt("Enter the first number");
 function sumTwo(){
 	let num1= parseFloat(input1);
 		let num2 = parseFloat(input2);
-	if(isNan(num1) || isNan(num2)){
+	if(isNaN(num1) || isNaN(num2)){
 	  window.alert("Invalid input! Please enter valid numbers.");
    return;
 	}
